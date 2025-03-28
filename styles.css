@@ -1,0 +1,35 @@
+html {
+    font-family: "Quicksand", "Libre Franklin";
+    color: black;
+    background-color: rgb(183, 201, 156);
+}
+
+.navbar{
+    list-style-type: none;
+    margin: -10px;
+    padding: 00px;
+    overflow: hidden;
+    background-color: rgb(15, 85, 15);
+}
+.navbar__item {
+    float: left;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    padding: 24px 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+li a:hover {
+    background-color: rgb(4, 59, 4);
+}
+.active {
+    background-color: green;
+}
+.page-title {
+font-size: 60px;
+text-align: center;
+}

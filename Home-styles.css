@@ -1,0 +1,22 @@
+h2 {
+    font-size: 40px;
+}
+.about-section {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    max-width: 60em;
+}
+.text {
+    flex: 1;
+}
+p {
+    font-size: 20px;
+    font-weight:400;
+    font-family:"Libre Franklin";
+}
+img {
+    max-width: 35%;
+}

@@ -109,10 +109,6 @@ margin-left: 4em;
     margin-left: 12em;
 }
 
-.variations li p {
-    color: #445063;
-}
-
 .favicon__title {
     font-size: 2.5em;
     color:  #152916;
@@ -182,20 +178,13 @@ margin-left: 4em;
 }
 
 .graphics-and-icons__list2 li {
-    background-color:#c6e1bb;
+    background-color:#d9ebd1;
     margin-top: 5em;
-    padding-top: 2em;
-    padding-bottom: 2em;
 }
 
 .graphics-and-icons__list2 li p {
     margin-right: 6em;
     margin-left: 6em;
-    color: 48693b;
-}
-
-.graphics-and-icons__list2 li img {
-   margin-left: 2em;
 }
 
 

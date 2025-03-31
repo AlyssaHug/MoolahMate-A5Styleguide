@@ -41,10 +41,19 @@ margin-left: 4em;
     margin-right: 10em;
 }
 
-.rational__why-1, .rational__why-2, .rational__why-3 {
+.rational__why-1, .rational__why-2 {
     color: #0c1421;
 }
 
+
+.rational__why-2 {
+    color: #090f19;
+}
+
+
+.rational__why-3 {
+    color: #090f19;
+}
 
 .logo__drawings-list {
     display: flex;
@@ -194,29 +203,4 @@ margin-left: 4em;
    margin-left: 2em;
 }
 
-.graphics-and-icons_pt2 {
-    list-style: none;
-}
 
-.graphics-and-icons_pt2 p {
-    text-align: center;
-    margin-left: 4em;
-    margin-right: 4em;
-    color: #37502d;
-}
-
-.graphics-and-icons_pt2 img {
-    margin-left: 25em;
-    max-width: 50%;
-}
-
-
-.graphics-and-icons__6, .graphics-and-icons__7 {
-    background-color: #9ccb89;
-    padding-top: 5em;
-    padding-bottom: 5em;
-    margin-bottom: 3em;
-    margin-top: 3em;
-    border-radius: 2em;
-    margin-right: 2em;
-}

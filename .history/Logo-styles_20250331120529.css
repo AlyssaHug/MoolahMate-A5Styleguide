@@ -1,7 +1,7 @@
 html {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/075/892/non_2x/meadow-grass-meadow-background-grassy-landscape-free-vector.jpg)
     background-color: #FEFDFD;
 }
-   
 
 .page__title {
     text-align: center;
@@ -11,10 +11,7 @@ html {
 
 .rationale {
     display: flex;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/007/075/892/non_2x/meadow-grass-meadow-background-grassy-landscape-free-vector.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #dcebf4;
     border-radius: 2em;
     align-items: center;
     justify-content: center;
@@ -41,10 +38,19 @@ margin-left: 4em;
     margin-right: 10em;
 }
 
-.rational__why-1, .rational__why-2, .rational__why-3 {
-    color: #0c1421;
+.rational__why-1 {
+    color: #62757f;
 }
 
+
+.rational__why-2 {
+    color: #62757f;
+}
+
+
+.rational__why-3 {
+    color: #62757f;
+}
 
 .logo__drawings-list {
     display: flex;
@@ -194,29 +200,4 @@ margin-left: 4em;
    margin-left: 2em;
 }
 
-.graphics-and-icons_pt2 {
-    list-style: none;
-}
 
-.graphics-and-icons_pt2 p {
-    text-align: center;
-    margin-left: 4em;
-    margin-right: 4em;
-    color: #37502d;
-}
-
-.graphics-and-icons_pt2 img {
-    margin-left: 25em;
-    max-width: 50%;
-}
-
-
-.graphics-and-icons__6, .graphics-and-icons__7 {
-    background-color: #9ccb89;
-    padding-top: 5em;
-    padding-bottom: 5em;
-    margin-bottom: 3em;
-    margin-top: 3em;
-    border-radius: 2em;
-    margin-right: 2em;
-}

@@ -69,6 +69,7 @@ margin-left: 4em;
 .logo-1, .logo-2, .logo-3, .logo-4, .logo-5, .logo-6 {
     font-size: 1.5em;
     background-color: #acd39d;
+    background-image: url(https://img.freepik.com/premium-vector/grass-field-vector-design-with-white-background_579306-10606.jpg);
     padding: 90px;
     border-radius: 8px;
     text-align: center;
@@ -219,13 +220,4 @@ margin-left: 4em;
     margin-top: 3em;
     border-radius: 2em;
     margin-right: 2em;
-}
-
-.moomoo-1, .moomoo-6, .moomoo-5, .moomoo-3, .moomoo-4, .moomoo-2{
-    transform: scale(2);
-    margin-right: 1em;
-}
-
-.moomoo-2 {
-    margin-top: 1.5em;
 }

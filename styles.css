@@ -5,11 +5,17 @@ html {
 }
 
 .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 105%;
     list-style-type: none;
-    margin: -10px;
-    padding: 00px;
+    margin-top: -10px;
+    padding: 0;
+    padding-top: 10px;
     overflow: hidden;
     background-color: #ACD39D;
+    box-shadow: 0 4px 4px #01430e61;
 }
 .navbar__item {
     float: left;

@@ -1,7 +1,7 @@
 html {
     font-family: "Quicksand", "Libre Franklin";
-    color: black;
-    background-color: rgb(183, 201, 156);
+    color: #090F19;
+    background-color: #FEFDFD;
 }
 
 .navbar{
@@ -9,7 +9,7 @@ html {
     margin: -10px;
     padding: 00px;
     overflow: hidden;
-    background-color: rgb(15, 85, 15);
+    background-color: #ACD39D;
 }
 .navbar__item {
     float: left;
@@ -19,15 +19,17 @@ html {
 li a {
     display: block;
     padding: 24px 16px;
-    color: white;
+        color: #090F19;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bold;
 }
 li a:hover {
-    background-color: rgb(4, 59, 4);
+    color: #FEFDFD;
+    background-color: #445063;
 }
 .active {
-    background-color: green;
+    background-color: #C6E1BB;
+    color: #526F53;
 }
 .page-title {
 font-size: 60px;

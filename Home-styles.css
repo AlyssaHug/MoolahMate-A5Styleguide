@@ -11,8 +11,13 @@ h2 {
 }
 .text {
     flex: 1;
+
 }
 p {
+    border-left: 6px solid #9CCB89;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
     font-size: 20px;
     font-weight:400;
     font-family:"Libre Franklin";

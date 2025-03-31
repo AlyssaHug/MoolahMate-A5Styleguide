@@ -37,16 +37,4 @@ p {
 img {
     max-width: 35%;
 }
-h3 {
-    font-size: 32px;
-    margin-bottom: -10px;
-}
-.page-footer {
-    padding-top: 5px;
-    padding-bottom: 6px;
-    text-align: center;
-    background-color: #F3F9F0;
-    box-shadow: 0 -4px 4px #0000003b;
-    width: 105%;
-    margin-left: -10px;
-}
+

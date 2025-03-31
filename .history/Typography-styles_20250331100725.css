@@ -1,0 +1,13 @@
+.typography_header{
+font-size: 40px;
+text-align: center;
+}
+
+.typography_quicksand{
+    display: flex;
+}
+
+img{
+    max-width: 35%;
+    max-height: 35%;
+}

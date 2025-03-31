@@ -27,9 +27,3 @@ img{
 .typography_libre-franklin p{
     max-width: 60%;
 }
-
-.components{
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-}

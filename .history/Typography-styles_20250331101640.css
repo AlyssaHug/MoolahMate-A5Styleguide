@@ -11,7 +11,7 @@ margin-bottom: 0;
     margin-right: 5%;
 }
 .typography_quicksand p{
-    max-width: 60%;
+    max-width: 70%;
 }
 img{
     max-width: 30%;
@@ -25,11 +25,5 @@ img{
     margin-right: 5%;
 }
 .typography_libre-franklin p{
-    max-width: 60%;
-}
-
-.components{
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+    max-width: 70%;
 }

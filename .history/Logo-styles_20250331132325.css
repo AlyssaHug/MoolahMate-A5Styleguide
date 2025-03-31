@@ -101,25 +101,24 @@ margin-left: 4em;
     margin: 0;
     justify-content: flex-start; 
     align-items: center; 
-    margin-left: 16em;
-    margin-top: -3em;
-    margin-bottom: 4em;
-
+    margin-left: 12em;
 }
 
 .variations li p {
-    color: #626c7c;
+    color: #445063;
 }
 
 .favicon__title {
     font-size: 2.5em;
     color:  #152916;
-    margin-left: 13em;
+    margin-left: 15em;
     margin-bottom: 0.5em;
     text-decoration: underline;
 }
 
-
+.variations img {
+    max-width: 50%;
+}
 
 .moomoo-7 {
     margin-left: 30em;
@@ -131,11 +130,10 @@ margin-left: 4em;
     padding-top: 5em;
     padding-bottom: 5em;
     border-radius: 2em;
-    background-position: center;
 }
 
 .variation__text {
-    margin-left: 2em;
+    margin-left: 3em;
 }
 
 .graphics-and-icons-list {
@@ -239,44 +237,7 @@ margin-left: 4em;
 .moomoo-7 {
     transform: scale(2.5);
     margin-left: -20em;
-    margin-top: -25em;
-    margin-bottom: -50em;
-}
+    margin-top: -30em;
+    margin-bottom: -55em;
 
-
-.moomoo-7-variation-1 {
-    width: 16px;
-    height: 16px;
-    margin-left: 6.7em;
-}
-
-.moomoo-7-variation-2 {
-    width: 32px;
-    height: 32px;
-    margin-left: 6.5em;
-}
-
-.moomoo-7-variation-3 {
-    width: 48px;
-    height: 48px;
-    margin-left: 6em;
-}
-
-.favicon__bg {
-   margin-right: 5em;
-   margin-left: 5em;
-}
-
-.variation__text {
-    font-size: 1.5em;
-}
-
-.variations li {
-    background-color: #f7fbfd;
-    padding-right: 2em;
-    padding-left: -2em;
-    margin-left: 2em;
-    border-radius: 2em;
-    border: 3px solid #b2d4e6;
-   
 }

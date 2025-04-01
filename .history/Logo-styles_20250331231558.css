@@ -152,14 +152,25 @@ html {
 }
 
 .graphics-and-icons__img2 {
-   
+    padding-right: 3em;
     border-radius: 2em;
 }
 
+.graphics-and-icons-list li p {
+    margin-right: 3em;
+    color: #48693b;
+    text-align: center;
+}
+
+.graphics-and-icons-list li {
+    background-color:#d9ebd1;
+    padding-left: 3em;
+    border-radius: 2em;
+}
 
 .graphics-and-icons__title {
     font-size: 2.5em;
-    margin-left: 1.3em;
+    margin-left: 3em;
     margin-top: 4em;
     color:  #152916;
 }
@@ -310,27 +321,25 @@ html {
     background-color: #d9ebd1;
     padding-left: 3em;
     border-radius: 2em;
-    position: relative; 
+    position: relative; /* To position the text over the image */
 }
 
-
+/* Initially hide the text inside the list item */
 .graphics-and-icons-list li p {
     margin-right: 3em;
     color: #48693b;
     text-align: center;
-    opacity: 0;  
-    transform: translateY(10px);  
+    opacity: 0; /* Initially hidden */
+    transform: translateY(10px); /* Slightly offset the text */
     transition: opacity 0.3s ease, transform 0.3s ease;
+    position: absolute; /* Position text over the image */
+    bottom: 10px; /* Position near the bottom of the image */
+    left: 50%;
+    transform: translateX(-50%) translateY(10px); /* Center the text */
 }
 
-
+/* On hover, show the text when hovering over the image */
 .graphics-and-icons-list li img:hover + p {
-    opacity: 1;  
-    transform: translateY(0);
-}
-
-.graphics-and-icons__img1 {
-    border-radius: 2em;
-    max-height: 70%;
-    margin-left: 2em;
+    opacity: 1; /* Make the text visible */
+    transform: translateX(-50%) translateY(0); /* Bring text into view */
 }

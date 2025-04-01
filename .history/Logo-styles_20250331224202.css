@@ -1,6 +1,5 @@
 html {
     background-color: #FEFDFD;
-    overflow-x: hidden;
 }
 
 .page__title {
@@ -108,7 +107,7 @@ html {
     justify-content: flex-start;
     align-items: center;
     margin-left: 16em;
-    margin-top: -1em;
+    margin-top: -3em;
     margin-bottom: 4em;
 }
 
@@ -119,7 +118,7 @@ html {
 .favicon__title {
     font-size: 2.5em;
     color:  #152916;
-    margin-left: 12.5em;
+    margin-left: 13em;
     margin-bottom: 0.5em;
     text-decoration: underline;
 }
@@ -134,9 +133,7 @@ html {
     padding-top: 5em;
     padding-bottom: 5em;
     border-radius: 2em;
-    padding-left: 2em;
     background-position: center;
-    
 }
 
 .variation__text {
@@ -281,16 +278,9 @@ html {
     margin-left: 2em;
     border-radius: 2em;
     border: 3px solid #b2d4e6;
-    position: relative; 
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.variations li:hover {
-    box-shadow: 0 0 13px #a2c1d1; 
-    transform: scale(1.05); 
-    z-index: 20; 
-}
-
+/*
 @keyframes moveUpDown {
     0% {
         transform: translateY(0) scale(2.5); 
@@ -304,10 +294,10 @@ html {
 }
 
 .moomoo-7 {
-    transform: scale(2.5); 
+    transform: scale(2.5); /* Keep the original scaling */
     margin-top: -25em;
     margin-bottom: -50em;
-    animation: moveUpDown 2s ease-in-out infinite; 
+    animation: moveUpDown 2s ease-in-out infinite; /* Apply the up and down animation */
 }
 
-
+*/

@@ -1,0 +1,48 @@
+body {
+        background-color: #FEFDFD;
+        font-family: "Libre Franklin", sans-serif;
+    }
+
+    .page__title {
+        text-align: center;
+        font-size: 4em;
+        color: #152916;
+    }
+
+    .logos {
+        margin: 4em;
+        text-align: center;
+    }
+
+    .logo__title {
+        font-size: 2.5em;
+        color: #152916;
+        margin-bottom: 1em;
+    }
+
+    .logo__drawings-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        list-style: none;
+        padding: 0;
+    }
+
+    .logo-item {
+        background-color: #acd39d;
+        padding: 30px;
+        border-radius: 8px;
+        text-align: center;
+        width: 250px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .moomoo {
+        width: 100px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .moomoo:hover {
+        transform: scale(1.5);
+    }

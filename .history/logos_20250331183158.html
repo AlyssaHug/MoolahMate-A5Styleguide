@@ -41,7 +41,7 @@
         <ul class="logo__drawings-list">
             <li class="logo-1">
                 <p class="logo-text">Full Colour Logo</p>
-                <img class="moomoo-1 " src="images/mistermoomoo.svg" alt="">
+                <img class="moomoo-1" src="images/mistermoomoo.svg" alt="">
             </li>
             <li class="logo-2">
                 <p class="logo-text">Black and White</p>
@@ -140,8 +140,13 @@
                 We chose to keep our app simple, clean, and calming to meet the needs and preferences of our users. Privacy, complexity, and a lack of accessibility are all problems many people face with expense apps, and we aimed to eliminate these issues. Our clean designs, stable colours and straightforward imagery all foster a welcoming and inclusive user experience.
             </p>
         </li>
-    </ul>
-
+    </ul>.logo-1, .logo-2, .logo-3, .logo-4, .logo-5, .logo-6 {
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .logo-1:hover, .logo-2:hover, .logo-3:hover, .logo-4:hover, .logo-5:hover, .logo-6:hover {
+        transform: scale(1.1); /* Slightly enlarges the block */
+    }
+    
 </body>
-
 </html>

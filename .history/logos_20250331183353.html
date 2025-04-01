@@ -41,7 +41,7 @@
         <ul class="logo__drawings-list">
             <li class="logo-1">
                 <p class="logo-text">Full Colour Logo</p>
-                <img class="moomoo-1 " src="images/mistermoomoo.svg" alt="">
+                <img class="moomoo-1" src="images/mistermoomoo.svg" alt="">
             </li>
             <li class="logo-2">
                 <p class="logo-text">Black and White</p>
@@ -143,5 +143,21 @@
     </ul>
 
 </body>
-
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Select all logo items
+        const logos = document.querySelectorAll(".logo__drawings-list li");
+    
+        logos.forEach(logo => {
+            logo.addEventListener("mouseover", function () {
+                this.style.transform = "scale(1.1)";
+                this.style.transition = "transform 0.3s ease-in-out";
+            });
+    
+            logo.addEventListener("mouseout", function () {
+                this.style.transform = "scale(1)";
+            });
+        });
+    });
+    </script>
 </html>

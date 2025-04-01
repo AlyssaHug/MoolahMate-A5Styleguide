@@ -331,10 +331,6 @@ html {
 
 .graphics-and-icons__img1 {
     border-radius: 2em;
-    max-height: 78%;
+    max-height: 70%;
     margin-left: 2em;
-}
-
-.graphics-and-icons-list p {
-   margin-bottom: -5em;
 }

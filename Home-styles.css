@@ -1,5 +1,8 @@
 h2 {
+    margin-left: 8px;
     font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .about-section {
@@ -16,15 +19,13 @@ h2 {
     display: flex;
     align-items: center;
     justify-content:center;
-    max-width: 40em;
+    max-width: 60em;
     margin-bottom: 5em;
-    background-color: #CBE2EE;
-    border-radius: 2em;
+    gap: 20px;
 }
 .goal-text {
-    margin-left: 12px;
-    margin-right: 12px;
-    margin-top: -20px;
+    background-color: #CBE2EE;
+    border-radius: 2em;
 }
 .text {
     flex: 1;
@@ -38,9 +39,18 @@ p {
 .desc {
     border-left: 6px solid #9CCB89;
     border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;   
+    border-bottom-left-radius: 5px;
+    margin-left: 16px;
+    margin-right: 12px;   
+    margin-top: 10px;
 }
 img {
     max-width: 35%;
+}
+.phone {
+    transition: transform 0.3s ease-in-out !important;
+}
+.phone:hover {
+    transform: scale(1.05) !important;
 }
 

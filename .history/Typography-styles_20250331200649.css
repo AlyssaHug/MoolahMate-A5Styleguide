@@ -1,0 +1,50 @@
+.typography_header{
+font-size: 40px;
+text-align: left;
+margin-left: 5%;
+margin-bottom: 0;
+margin-top: 10px;
+}
+
+.typography_quicksand{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/007/075/892/non_2x/meadow-grass-meadow-background-grassy-landscape-free-vector.jpg);
+    background-position: 53%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.typography_quicksand p{
+    max-width: 60%;
+    text-align: center;
+    padding-top: 50px;
+}
+img{
+    max-width: 30%;
+    max-height: 30%;
+    padding: 2%;
+}
+.background_img{
+    z-index: 0;
+    position: absolute;
+    width: 500px;
+}
+.typography_libre-franklin{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/007/075/892/non_2x/meadow-grass-meadow-background-grassy-landscape-free-vector.jpg);
+    background-position: 53%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.typography_libre-franklin p{
+    max-width: 60%;
+}
+
+.components{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}

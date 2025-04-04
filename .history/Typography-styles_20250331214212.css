@@ -1,0 +1,90 @@
+.typography_header{
+font-size: 40px;
+text-align: left;
+margin-left: 5%;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.typography_quicksand{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/007/075/892/non_2x/meadow-grass-meadow-background-grassy-landscape-free-vector.jpg);
+    background-position: 53%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.typography_quicksand p{
+    max-width: 60%;
+    padding-top: 50px;
+}
+img{
+    max-width: 40%;
+    max-height: 50%;
+    padding: 2%;
+}
+
+.typography_libre-franklin{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/007/075/892/non_2x/meadow-grass-meadow-background-grassy-landscape-free-vector.jpg);
+    background-position: 53%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.typography_libre-franklin p{
+    max-width: 60%;
+    padding-top: 60px;
+}
+
+
+.box{
+    border: 2px solid greenyellow;
+    align-items: center;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.header1{
+font-family: 'Quicksand';
+font-weight: bold;
+font-size: 32px;
+}
+
+.header2{
+font-family: 'Quicksand';
+font-weight: 600;
+font-size: 28px;
+}
+
+.header3{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 24px;
+ }
+
+.header4{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.body{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 16px;
+}
+.caption{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 12px;
+}
+.figcaption{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 8px;
+}

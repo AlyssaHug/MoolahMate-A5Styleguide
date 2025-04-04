@@ -204,10 +204,13 @@ html {
     text-align: center;
     margin-left: 4em;
     margin-right: 4em;
-    color: #152916;
+    color: #37502d;
 }
 
-
+.graphics-and-icons_pt2 img {
+    margin-left: 25em;
+    max-width: 50%;
+}
 
 .graphics-and-icons__6, .graphics-and-icons__7 {
     background-color: #9ccb89;
@@ -345,41 +348,10 @@ html {
     color: #77ad62;
 }
 
-.graphics-and-icons__text3, .graphics-and-icons__text4, .graphics-and-icons__text5 {
-    text-align: left;
-    font-size: 1.5em;
+.graphics-and-icons__text3 {
+    text-align: center;
 }
 
-.graphics-and-icons__img4 {
-    max-width: 50%;
-    border-radius: 2em;
-}
-
-.graphics-and-icons__list2 li p {
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-.graphics-and-icons__img5 {
-    max-width: 50%;
-}
-
-.darkmode {
-    font-weight: bold;
-}
-
-.graphics-and-icons_pt2 li img {
-    max-width: 70%;
-    margin-left: 13em;
-}
-
-.graphics-and-icons__img7 {
-    max-width: 20% !important;
-    margin-left: 35em !important;
-    border-radius: 2em;
-    transition: transform 0.3s ease-in-out !important;
-}
-
-.graphics-and-icons__img7:hover {
-    transform: scale(1.02) !important;
+.graphics-and-icons__list2  {
+    box-shadow: 0 0 13px #a2c1d1;
 }

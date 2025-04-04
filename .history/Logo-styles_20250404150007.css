@@ -383,3 +383,8 @@ html {
 .graphics-and-icons__img7:hover {
     transform: scale(1.02) !important;
 }
+
+.graphics-and-icons__text7 {
+    margin-left: em !important;
+    margin-right: 8em !important;
+}

@@ -374,12 +374,5 @@ html {
 }
 
 .graphics-and-icons__img7 {
-    max-width: 20% !important;
-    margin-left: 35em !important;
-    border-radius: 2em;
-    transition: transform 0.3s ease-in-out !important;
-}
-
-.graphics-and-icons__img7:hover {
-    transform: scale(1.02) !important;
+    max-width: 50% !important;
 }

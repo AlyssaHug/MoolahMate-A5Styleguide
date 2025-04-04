@@ -381,5 +381,5 @@ html {
 }
 
 .graphics-and-icons__img7:hover {
-    transform: scale(1.02) !important;
+    transform: scale(1.) !important;
 }

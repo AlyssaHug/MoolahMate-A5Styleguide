@@ -207,7 +207,10 @@ html {
     color: #152916;
 }
 
-
+.graphics-and-icons_pt2 img {
+    margin-left: 25em;
+    max-width: 50%;
+}
 
 .graphics-and-icons__6, .graphics-and-icons__7 {
     background-color: #9ccb89;
@@ -373,13 +376,4 @@ html {
     margin-left: 13em;
 }
 
-.graphics-and-icons__img7 {
-    max-width: 20% !important;
-    margin-left: 35em !important;
-    border-radius: 2em;
-    transition: transform 0.3s ease-in-out !important;
-}
-
-.graphics-and-icons__img7:hover {
-    transform: scale(1.02) !important;
-}
+.graphics-and-icons__7

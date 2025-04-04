@@ -384,10 +384,6 @@ html {
     transform: scale(1.02) !important;
 }
 
-.graphics-and-icons__img6 {
+.graphics-and-icons__6 {
     transition: transform 0.3s ease-in-out !important;
-}
-
-.graphics-and-icons__img6:hover {
-    transform: scale(1.02) !important;
 }

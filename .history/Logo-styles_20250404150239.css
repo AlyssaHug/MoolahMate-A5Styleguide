@@ -383,11 +383,3 @@ html {
 .graphics-and-icons__img7:hover {
     transform: scale(1.02) !important;
 }
-
-.graphics-and-icons__img6 {
-    transition: transform 0.3s ease-in-out !important;
-}
-
-.graphics-and-icons__img6:hover {
-    transform: scale(1.02) !important;
-}

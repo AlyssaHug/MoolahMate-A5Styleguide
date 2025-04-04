@@ -368,7 +368,7 @@ html {
     font-weight: bold;
 }
 
-.graphics-and-icons_pt2 li img {
+.graphics-and-icons__6 {
     max-width: 70%;
     margin-left: 13em;
 }
@@ -381,13 +381,5 @@ html {
 }
 
 .graphics-and-icons__img7:hover {
-    transform: scale(1.02) !important;
-}
-
-.graphics-and-icons__img6 {
-    transition: transform 0.3s ease-in-out !important;
-}
-
-.graphics-and-icons__img6:hover {
     transform: scale(1.02) !important;
 }

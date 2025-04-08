@@ -3,28 +3,36 @@ html {
     color: #090F19;
     background-color: #FEFDFD;
 }
-
-.navbar{
+.nav {
     position: fixed;
     top: 0;
     left: 0;
-    width: 105%;
-    list-style-type: none;
-    margin-top: -10px;
-    padding: 0;
-    padding-top: 10px;
-    overflow: hidden;
+    width: 100%;
     background-color: #ACD39D;
     box-shadow: 0 4px 4px #01430e61;
+    padding-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
 }
-.navbar__item {
-    float: left;
-    text-align: center;
+.navbar{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 80px;
 }
 
 li a {
-    display: block;
-    padding: 24px 16px;
+    display: flex;
+    padding: 32px 16px;
     color: #090F19;
     text-decoration: none;
     font-weight: bold;
@@ -47,7 +55,6 @@ text-align: center;
 }
 h3 {
     font-size: 32px;
-    margin-bottom: -10px;
 }
 .page-footer {
     padding-top: 5px;
@@ -59,4 +66,8 @@ h3 {
     justify-content: center;
     text-align: center;
     margin: 0 auto -10px -20px;
+}
+h4 {
+    font-size: 28px;
+    margin-bottom: -10px;
 }

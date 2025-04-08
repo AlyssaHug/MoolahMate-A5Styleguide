@@ -1,0 +1,51 @@
+.color_palette {
+    text-align: center;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    max-width: 90em;
+    margin-bottom: 10em;
+}
+
+.palette_description {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.examples {
+    flex-direction: row;
+    display: flex;
+}
+
+.example-screen {
+    align-self: center;
+    height: 700px;
+    width: 350px;
+}
+
+.color_contrast_title, .examples_title {
+    text-align: center;
+}
+
+.color_contrast_examples {
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 15em;
+}
+
+.color_contrast_img {
+    align-self: center;
+    height: 200px;
+    width: 700px;
+}
+

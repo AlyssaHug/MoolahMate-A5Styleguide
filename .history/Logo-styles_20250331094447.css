@@ -1,0 +1,8 @@
+.page__title {
+    text-align: center;
+    font-size: 4em;
+}
+
+.rationale{
+    display: flex;
+}

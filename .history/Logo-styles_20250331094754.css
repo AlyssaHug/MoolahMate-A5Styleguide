@@ -1,0 +1,15 @@
+.page__title {
+    text-align: center;
+    font-size: 4em;
+}
+
+.rationale {
+    display: flex;
+    background-color: #d9ebd1;
+    border-radius: 2em;
+    margin-top: 6em;
+}
+
+.rationale__title {
+
+}

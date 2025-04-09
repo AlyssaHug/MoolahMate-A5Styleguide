@@ -1,0 +1,50 @@
+html {
+    background-color: #FEFDFD;
+}
+
+.page__title {
+    text-align: center;
+    font-size: 4em;
+}
+
+.rationale {
+    display: flex;
+    background-color: #cbe2ee;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    max-width: 90em;
+}
+
+.rationale__why {
+flex: 1;
+margin-left: 4em;
+}
+
+.rationale__title {
+  font-size: 2.3em;
+}
+
+.title__image {
+    max-width: 30%;
+    margin-top: 10em;
+    margin-bottom: 5em;
+    margin-right: 10em;
+}
+
+.rational__why-1 {
+    color: #62757f;
+}
+
+
+.rational__why-2 {
+    color: #62757f;
+}
+
+
+.rational__why-3 {
+    color: #a2c1d1;
+}
+

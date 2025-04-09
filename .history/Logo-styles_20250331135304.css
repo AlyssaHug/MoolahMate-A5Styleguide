@@ -1,0 +1,278 @@
+html {
+    background-color: #FEFDFD;
+}
+   
+
+.page__title {
+    text-align: center;
+    font-size: 4em;
+    color: #152916;
+}
+
+.rationale {
+    display: flex;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/075/892/non_2x/meadow-grass-meadow-background-grassy-landscape-free-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    max-width: 90em;
+}
+
+.rationale__why {
+flex: 1;
+margin-left: 4em;
+}
+
+.rationale__title {
+  font-size: 2.5em;
+  text-decoration: underline;
+  color: #4b5961;
+}
+
+.title__image {
+    max-width: 30%;
+    margin-top: 10em;
+    margin-bottom: 5em;
+    margin-right: 10em;
+}
+
+.rational__why-1, .rational__why-2, .rational__why-3 {
+    color: #0c1421;
+}
+
+
+.logo__drawings-list {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 40px 20px; 
+    list-style: none;
+    padding: 0;
+    margin-left: 8em;
+    margin-right: 5em;
+}
+
+.logo__drawings-list li {
+    flex: 1 1 auto; 
+    max-width: 200px; 
+    text-align: center;
+}
+
+.moomoo-1, .moomoo-2, .moomoo-3, .moomoo-4, .moomoo-5, .moomoo-6 {
+    max-width: 100%;
+}
+
+.logo-1, .logo-2, .logo-3, .logo-4, .logo-5, .logo-6 {
+    font-size: 1.5em;
+    background-color: #acd39d;
+    padding: 90px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.logos {
+    margin-left: 4em;
+    margin-top: 7em;
+    margin-bottom: 10em;
+}
+
+
+.logo__title {
+    font-size: 2.5em;
+    color:  #152916;
+}
+
+ .logo-text {
+ margin-top: -2em;
+ margin-bottom: 2em;
+ color: #37502d;
+}
+
+.variations {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 2px; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start; 
+    align-items: center; 
+    margin-left: 22em;
+    margin-top: -3em;
+
+}
+
+.variations li p {
+    color: #626c7c;
+}
+
+.favicon__title {
+    font-size: 2.5em;
+    color:  #152916;
+    margin-left: 13em;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+}
+
+
+
+.moomoo-7 {
+    margin-left: 30em;
+    margin-bottom: 3em;
+}
+
+.favicon__bg {
+    background-color: #dcebf4;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border-radius: 2em;
+    background-position: center;
+}
+
+.variation__text {
+    margin-left: 2em;
+}
+
+.graphics-and-icons-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style: none;
+    gap: 3em;
+}
+
+.graphics-and-icons-list li p {
+    margin-right: 3em;
+    color: #48693b;
+    text-align: center;
+}
+
+.graphics-and-icons-list li {
+    background-color:#d9ebd1;
+    padding-left: 3em;
+    border-radius: 2em;
+}
+
+.graphics-and-icons__title {
+    font-size: 2.5em;
+    margin-left: 3em;
+    margin-top: 4em;
+    color:  #152916;
+}
+
+.graphics-and-icons-list li img {
+    margin-top: 2em;
+}
+
+.graphics-and-icons__3, .graphics-and-icons__4, .graphics-and-icons__5{
+    display: flex;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    max-width: 90em;
+    margin-right: 9em;
+}
+
+.graphics-and-icons__list2 li {
+    background-color:#c6e1bb;
+    margin-top: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.graphics-and-icons__list2 li p {
+    margin-right: 6em;
+    margin-left: 6em;
+    color: 48693b;
+}
+
+.graphics-and-icons__list2 li img {
+   margin-left: 2em;
+}
+
+.graphics-and-icons_pt2 {
+    list-style: none;
+}
+
+.graphics-and-icons_pt2 p {
+    text-align: center;
+    margin-left: 4em;
+    margin-right: 4em;
+    color: #37502d;
+}
+
+.graphics-and-icons_pt2 img {
+    margin-left: 25em;
+    max-width: 50%;
+}
+
+
+.graphics-and-icons__6, .graphics-and-icons__7 {
+    background-color: #9ccb89;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    border-radius: 2em;
+    margin-right: 2em;
+}
+
+.moomoo-1, .moomoo-6, .moomoo-5, .moomoo-3, .moomoo-4, .moomoo-2{
+    transform: scale(2);
+    margin-right: 1em;
+}
+
+.moomoo-2 {
+    margin-top: 1.5em;
+}
+
+.moomoo-6 {
+    margin-top: -1em;
+}
+
+.moomoo-7 {
+    transform: scale(2.5);
+    margin-left: -20em;
+    margin-top: -25em;
+    margin-bottom: -50em;
+}
+
+
+.moomoo-7-variation-1 {
+    width: 16px;
+    height: 16px;
+    margin-left: 6em;
+}
+
+.moomoo-7-variation-2 {
+    width: 32px;
+    height: 32px;
+    margin-left: 6em;
+}
+
+.moomoo-7-variation-3 {
+    width: 48px;
+    height: 48px;
+    margin-left: 6em;
+}
+
+.favicon__bg {
+   margin-right: 5em;
+   margin-left: 5em;
+}
+
+.variation__text {
+    font-size: 1.5em;
+}
+
+.variations li {
+    background-color: white;
+    padding-right: 2em;
+    padding-left: -2em;
+    margin-left: -2em;
+}

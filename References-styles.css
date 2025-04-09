@@ -1,0 +1,23 @@
+h2 {
+    font-size: 40px;
+}
+p {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight:400;
+    font-family:"Libre Franklin";
+}
+.ref__item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    max-width: 40rem;
+}
+.ref-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    max-width: 65em;
+    margin: 0 auto;
+}

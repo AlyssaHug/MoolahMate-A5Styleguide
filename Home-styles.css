@@ -1,0 +1,56 @@
+h2 {
+    margin-left: 8px;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.about-section {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    max-width: 60em;
+    margin-bottom: 5em;
+}
+.goals-section {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    max-width: 60em;
+    margin-bottom: 5em;
+    gap: 20px;
+}
+.goal-text {
+    background-color: #CBE2EE;
+    border-radius: 2em;
+}
+.text {
+    flex: 1;
+}
+p {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight:400;
+    font-family:"Libre Franklin";
+}
+.desc {
+    border-left: 6px solid #9CCB89;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 16px;
+    margin-right: 12px;   
+    margin-top: 10px;
+}
+img {
+    max-width: 35%;
+}
+.phone {
+    transition: transform 0.3s ease-in-out !important;
+}
+.phone:hover {
+    transform: scale(1.05) !important;
+}
+

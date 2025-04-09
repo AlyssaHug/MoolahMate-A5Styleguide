@@ -1,35 +1,73 @@
 html {
     font-family: "Quicksand", "Libre Franklin";
-    color: black;
-    background-color: rgb(183, 201, 156);
+    color: #090F19;
+    background-color: #FEFDFD;
 }
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ACD39D;
+    box-shadow: 0 4px 4px #01430e61;
+    padding-top: 10px;
 
-.navbar{
-    list-style-type: none;
-    margin: -10px;
-    padding: 00px;
-    overflow: hidden;
-    background-color: rgb(15, 85, 15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
 }
-.navbar__item {
-    float: left;
-    text-align: center;
+.navbar{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 80px;
 }
 
 li a {
-    display: block;
-    padding: 24px 16px;
-    color: white;
+    display: flex;
+    padding: 32px 16px;
+    color: #090F19;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bold;
+    font-size: 20px;
 }
 li a:hover {
-    background-color: rgb(4, 59, 4);
+    color: #FEFDFD;
+    background-color: #445063;
 }
 .active {
-    background-color: green;
+    background-color: #C6E1BB;
+    color: #526F53;
 }
 .page-title {
 font-size: 60px;
 text-align: center;
+}
+.page-content {
+    padding-top: 60px;
+}
+h3 {
+    font-size: 32px;
+}
+.page-footer {
+    padding-top: 5px;
+    padding-bottom: 6px;
+    background-color: #F3F9F0;
+    box-shadow: 0 -4px 4px #0000003b;
+    width: 105%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto -10px -20px;
+}
+h4 {
+    font-size: 28px;
+    margin-bottom: -10px;
 }

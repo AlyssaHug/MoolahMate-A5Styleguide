@@ -3,7 +3,7 @@ font-size: 40px;
 text-align: left;
 margin-left: 5%;
 margin-bottom: 10px;
-margin-top: 30px;
+margin-top: 10px;
 }
 
 .typography_quicksand{
@@ -160,19 +160,3 @@ padding: 5px;
             max-width: 60%;
             margin: auto;
         }
-
-        .accessibility_Header{
-            font-family: "Quicksand";
-            font-weight: 600;
-            font-size: 40px;
-            padding: 5px;
-        }
-
-        .accessibility_Body{
-            font-family: "Libre Franklin";
-            font-weight: 300;
-            font-size: 40px;
-            padding: 5px;
-        }
-
-   

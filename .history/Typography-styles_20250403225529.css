@@ -3,7 +3,7 @@ font-size: 40px;
 text-align: left;
 margin-left: 5%;
 margin-bottom: 10px;
-margin-top: 30px;
+margin-top: 10px;
 }
 
 .typography_quicksand{
@@ -18,7 +18,7 @@ margin-top: 30px;
 }
 .typography_quicksand p{
     max-width: 60%;
-    margin: auto;
+    padding-top: 50px;
 }
 img{
     max-width: 40%;
@@ -39,7 +39,6 @@ img{
 .typography_libre-franklin p{
     max-width: 60%;
     margin: auto;
-}
 
 
 .box{
@@ -146,33 +145,4 @@ padding: 5px;
         padding: 5px;
         }
 
-.accessibility_typography{
-        display: flex;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 5%;
-        background-image:url(https://static.vecteezy.com/system/resources/previews/007/075/892/non_2x/meadow-grass-meadow-background-grassy-landscape-free-vector.jpg);
-        background-position: 53%;
-        background-size: cover;
-        border-radius: 20px;
-        }
-        .accessibility_typography p{
-            max-width: 60%;
-            margin: auto;
-        }
-
-        .accessibility_Header{
-            font-family: "Quicksand";
-            font-weight: 600;
-            font-size: 40px;
-            padding: 5px;
-        }
-
-        .accessibility_Body{
-            font-family: "Libre Franklin";
-            font-weight: 300;
-            font-size: 40px;
-            padding: 5px;
-        }
-
-   
+ 

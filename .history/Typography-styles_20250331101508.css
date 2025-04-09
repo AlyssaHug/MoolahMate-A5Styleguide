@@ -1,0 +1,26 @@
+.typography_header{
+font-size: 40px;
+text-align: left;
+margin-left: 5%;
+}
+
+.typography_quicksand{
+    display: flex;
+    margin: 5%;
+}
+.typography_quicksand p{
+    max-width: 50%;
+}
+img{
+    max-width: 30%;
+    max-height: 30%;
+    padding: 2%;
+}
+
+.typography_libre-franklin{
+    display: flex;
+    margin: 5%;
+}
+.typography_libre-franklin p{
+    max-width: 50%;
+}

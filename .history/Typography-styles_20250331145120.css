@@ -1,0 +1,62 @@
+.typography_header{
+font-size: 40px;
+text-align: left;
+margin-left: 7%;
+margin-bottom: 0;
+}
+
+ .typography_quicksand {
+    position: relative;
+    background-color: #b0c4a1; /* Light green background */
+     padding: 20px;
+     width: 100%;
+    height: auto;
+      }
+
+.typography_quicksand p{
+    max-width: 60%;
+}
+.background-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    z-index: 0; /* Behind everything */
+  }
+  .typography_quicksand img {
+    position: relative;
+    width: 400px;
+    z-index: 2; /* Above the background */
+  }
+  .typography_quicksand p {
+    position: relative;
+    z-index: 3; /* Text on top */
+  }
+  
+  .typography_header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    z-index: 4;
+    position: relative;
+  }
+
+img{
+    max-width: 30%;
+    max-height: 30%;
+    padding: 2%;
+}
+
+.typography_libre-franklin{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.typography_libre-franklin p{
+    max-width: 60%;
+}
+
+.components{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}

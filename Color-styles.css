@@ -15,20 +15,21 @@
 
 .palette_description {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 8em;
+    text-align: center;
 }
 
 .examples {
     flex-direction: row;
     display: flex;
+    margin-bottom: 15em;
+    align-content: center;
 }
 
 .example-screen {
-    align-self: center;
+    margin-left: 7%;
     height: 700px;
     width: 350px;
 }
@@ -40,12 +41,12 @@
 .color_contrast_examples {
     flex-direction: column;
     display: flex;
-    margin-bottom: 15em;
+    margin-bottom: 4em;
 }
 
 .color_contrast_img {
     align-self: center;
-    height: 200px;
-    width: 700px;
+    height: 300px;
+    width: 900px;
 }
 

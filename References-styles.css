@@ -13,3 +13,11 @@ p {
     gap: 0.5rem;
     max-width: 40rem;
 }
+.ref-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    max-width: 65em;
+    margin: 0 auto;
+}

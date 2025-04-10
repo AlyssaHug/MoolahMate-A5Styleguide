@@ -1,16 +1,19 @@
+/*===Page done by Darrel===*/
 .color_palette {
     text-align: center;
     display: flex;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 2em;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     gap: 20px;
     max-width: 90em;
-    margin-bottom: 10em;
+    margin-bottom: 2em;
+}
+.color_palette img {
+    border-radius: 32px;
 }
 
 .palette_description {

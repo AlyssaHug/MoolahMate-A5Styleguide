@@ -1,3 +1,4 @@
+/*===Page done by Alyssa===*/
 html {
     font-family: "Quicksand", "Libre Franklin";
     color: #090F19;
@@ -16,6 +17,7 @@ html {
     align-items: center;
     justify-content: space-between;
     margin-top: -10px;
+    z-index: 1000;
 }
 .navbar{
     display: flex;
